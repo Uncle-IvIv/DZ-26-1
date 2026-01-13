@@ -8,7 +8,25 @@ p {
         background-color: aqua;
          }
 h2 {color: #115bca;}
-
+a {
+   color: #f00;
+}
+.card {
+   width: 100px;
+   height: 100px;
+   margin: 20px;
+   border-radius: 20px;
+   background-color: blueviolet;
+   text-align: center;
+   padding-top: 45px;
+}
+.four {
+   background-color: aliceblue;
+}
+/* не використовують id для css */
+#spus {
+   background-color: rgb(156, 95, 21);
+}
 .hra {
     font-size: 30px;
 };
