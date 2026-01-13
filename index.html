@@ -8,8 +8,15 @@
     <style>
     body {
       background-color: #90EE90; /* цвет фона страницы Светло-зеленый */
-    }
-  </style>
+         }
+    </style> 
+   <!-- <style>
+   body {
+    background: #c7b39b url(images/bg.jpg); /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+   }
+  </style>-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -52,17 +59,17 @@
 
     <main>
        <a target=_self href="index.html" title="Ссылка">Ссылка на эту страницу.страница откроется в этом же окне.</a><br>
-       <img src = "./images/dom 1.png" alt = "Dom 1" width = "400"><br>
+       <img src = "./images/dom 1.png" alt = "Dom 1" width = "400" id="p1"><br>
        <a target=_new href="index.html" title="Ссылка">Ссылка на эту страницу.страница откроется в новом окне</a><br>
        <center><img src = "./images/dom 2.png" alt = "Dom 2" width = "800"></center><br>
        <a target=_blank href="index.html" title="Ссылка">Ссылка на эту страницу.страница будет открыта в новой вкладке</a>
-       <div align = "right"><img src = "./images/dom 3.png" alt = "Dom 3" width = "800"></div>
-        <font size="5" color="red">Это увеличенный красный текст<h2>section 1</h2></font>
+       <div align = "right"><img src = "./images/dom 3.png" alt = "Dom 3" width = "800" title="Dom 3"></div>
+        <font size="5" color="red">Это увеличенный красный текст<h1>section 1</h1></font>
         <section>
             <h2>section 1</h2>
         </section>
         <section>
-            <u><h2>section 2</h2>Подчёркнутый текст</u>
+            <u><h2 class="hra">section 2</h2>Подчёркнутый текст</u>
                 </section>
 
         <section>
@@ -103,6 +110,24 @@
  <input type = "button" name = "start" value = "Начать">
  <br>
  <input type = "submit" value = "Отправить"> 
+        </form>
+
+        <h1>Пори року</h1>
+<h2>Зміст</h2>
+	<a href="#p1">Літо</a> <!--Задаємо якір через id елемента--!>
+	<a href="#p2">Осінь</a>
+	<a href="#p3">Зима</a>
+	<a href="#p4">Весна</a>
+<p id="p1"> ... </p> <!--Додаємо відповідний id елементу--!>
+<p id="p2"> ... </p>
+<p id="p3"> ... </p>
+<p id="p4"> ... </p>
+<p>
+    <img src="images/Суші.png" width="200" title="Суші">
+</p>
+<p>
+    Happy New Year!
+</p>
        </main>
     <footer>
         <p>© 2024 Company Name. All rights reserved.</p>
