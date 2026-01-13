@@ -1,3 +1,55 @@
 .hra {
     font-size: 30px;
 };
+.box {
+   /* width:500px;
+   height:500px;
+   border:5px solid #f00;
+   position:relative; */
+   width: 100%;
+   max-width: 500px;
+   height: 500px;
+   border: 5px solid #f00;
+   position: relative;
+}
+.item {
+   /* width:50px;
+   height:50px;
+   background-color: #f00;
+   border-radius:100%;
+   position: fixed;
+   right:20px;
+   bottom:50px; */
+    width:50px;
+   height:50px;
+   background-color: #f00;
+   border-radius:100%;
+   position: static;
+   right:0;
+   bottom:100px;
+}
+     HTML CSS 
+
+    Result
+    Skip Results Iframe
+
+EDIT ON
+
+.header, .footer, .sticky h2 {
+   border: 3px solid #f00;
+   padding:30px;
+}
+.side {
+   width:50%;
+}
+.sticky {
+   position:sticky;
+   float:right;
+   top:0;
+   width:50%;
+}
+.sticky h2 {
+   color:#f00;
+   background-color: rgba(255,0,0, 0.08);
+}
+
