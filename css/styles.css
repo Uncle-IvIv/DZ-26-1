@@ -18,6 +18,10 @@ button {
    background-color: #e3e6eb;
    color: #efefeb05;
 }
+.positioned {
+   position: static;
+   background: yellow;
+}
 .card {
    width: 100px;
    height: 100px;
